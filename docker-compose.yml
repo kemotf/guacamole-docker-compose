@@ -154,7 +154,7 @@ services:
    - ./volumes/nginx/ssl/self.cert:/etc/nginx/ssl/self.cert:ro
    - ./volumes/nginx/ssl/self-ssl.key:/etc/nginx/ssl/self-ssl.key:ro
    ports:
-   - 8443:443
+   - 443:443
    links:
    - guacamole
    networks:
